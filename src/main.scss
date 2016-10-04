@@ -14,9 +14,12 @@
 
 // TODO: Move this to its own file.
 body {
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
 .nounderline{
   text-decoration: none !important;
 }
+.navbar {
+    min-height: 80px !important;
+  }

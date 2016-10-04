@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand btn-lg glyphicon glyphicon-user" href="#" >
-                      Max Lecturer
+                      <label>Max<br>Lecturer</label>
                     </a>
                 </div>
             </div>
@@ -28,6 +28,7 @@
                     <th>Active Student</th>
                     <th>Name</th>
                     <th>Email</th>
+                    <th>Trainings</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -41,6 +42,7 @@
                       <a class="nounderline glyphicon glyphicon-pencil nounderline" href="#" />
                       <a class="glyphicon glyphicon-trash nounderline" href="#" />
                     </td>
+                    <td>Training 1, Training 2</td>
                   </tr>
                   <tr>
                     <td>
@@ -52,6 +54,7 @@
                       <a class="glyphicon glyphicon-pencil nounderline" href="#" />
                       <a class="glyphicon glyphicon-trash nounderline" href="#" />
                     </td>
+                    <td>Training 1, Training 3</td>
                   </tr>
                   <tr>
                     <td>
@@ -63,15 +66,16 @@
                       <a class="glyphicon glyphicon-pencil nounderline" href="#" />
                       <a class="glyphicon glyphicon-trash nounderline" href="#" />
                     </td>
+                    <td>Training2</td>
                   </tr>
                 </tbody>
               </table>
             </div>
         </div>
-        <div class="row form-inline col-md-offset-2">
+        <div class="row form-inline col-md-offset-2 form-group">
             <input class="col-md-2 form-control" type="text" id="usr"  placeholder="Enter name...">
             <input class="col-md-2 form-control" type="email" id="email"  placeholder="Enter email...">
-            <div class="col-md-3 dropdown">
+            <div class="col-md-3 dropdown form-group">
                <button class="form-control btn btn-primary dropdown-toggle" type="button" id="training" data-toggle="dropdown">Select training
                <span class="caret"></span></button>
                <ul class="dropdown-menu">
@@ -80,13 +84,13 @@
                  <li><a href="#">Training 3</a></li>
                </ul>
              </div>
-            <button class="col-md-1 btn btn-default" type="submit" >Add</button>
+            <button class="col-md-1 btn btn-default  form-control" type="submit" >Add</button>
         </div>
-        <div class="row alert alert-danger col-md-8 col-md-offset-2" role="alert">
+        <!-- <div class="row alert alert-danger col-md-8 col-md-offset-2" role="alert">
           <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
           <span class="sr-only">Error:</span>
           Enter a valid email address
-        </div>
+        </div> -->
 
 
     </div> <!-- end container-fluid -->
